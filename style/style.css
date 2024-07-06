@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero {
+    height: 650px;
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-container {
+    width: 725px;
+}
+
+/* subtitle */
+#hero .hero-container .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* title */
+#hero .hero-container .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 12px 0;
+}
+
+/* description */
+#hero .hero-container .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px 0;
+}
+
+/* button */
+#hero .hero-container .btn-container {
+    text-align: center;
+}
+
+/* utilities btn */
+.btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 12px 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+/* card */
+#card-box {
+    width: 940px;
+    margin: 100px auto;
+    border: 1px dashed gray;
+}
+
+/* card title */
+#card-box .title > p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+#card-box .title > h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-container .card > figure {
+    width: 300px;
+}
+
+.card-container .card > figure > img {
+    width: 100%;
+}
+
+.card-container .card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    margin-top: 10px;
+    gap: 8px;
+}
+
+.card-container .card > div > button {
+    border-radius: 4px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 5px 14px;
+    border: none;
+    cursor: pointer;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-container .card > div > h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container .card > div > p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#card-box .btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* about section */
+#about {
+    height: 475px;
+    display: flex;
+    padding: 100px 0;
+}
+
+#about .about-info {
+    width: 100%;
+}
+
+#about > figure {
+    height: 475px;
+}
+
+#about > figure > img {
+    height: 100%;
+}
+
+#about .about-info > h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#about .about-info .description {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin: 20px 0 40px 0;
+}
+
+#about .about-info .follow {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    color: blue;
+}
+.fa-twitter {
+    color: black;
+}
+.fa-instagram {
+    color: red;
+}
+.fa-youtube {
+    color: red;
+}
+
+/* social */
+
+#social {
+    height: 480px;
+    background: linear-gradient( rgba(221, 221, 221, 0.863), rgba(248, 248, 248, 0.747)), url('../assets/social-bg.png');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#social .social-info {
+    width: 940px;
+    height: 235px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#social .social-info .info {
+    width: 572px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+#social .social-info .info > p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#social .social-info .info > h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+#social .social-info .follow {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    padding: 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+
+
+
